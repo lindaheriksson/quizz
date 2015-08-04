@@ -7,9 +7,10 @@ html, body, .container {
 
 
 body {
-	background-color: #7FC6A6;
+	background-color: #FFFFFF;
 	font-family: helvetica;
 	color: #000000;
+	font-size: 1.5em;
 }
 
 @media only screen and (min-width: 321px) {
@@ -21,6 +22,7 @@ body {
 	display: table-row; 
 }
 
+
 .column {
 		display: table-cell;
 		vertical-align: middle;
@@ -28,7 +30,12 @@ body {
 	
 .wrapper {
 		margin: 0 auto;
-		width: 300px;
+		width: 50%;
+		background-color: #7FC6A6;
+		border-radius: 25px;
+		padding: 10px;
+		margin-bottom: 15px;
+
 }
 
 .header {
@@ -38,8 +45,7 @@ body {
 	width: 20%;
 }
 
-.header p {
-		
+.header p {	
 }
 
 a {
@@ -82,11 +88,11 @@ a {
 }
 
 p {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .question {
-	font-size: 1em;
+	font-size: 2em;
 	font-weight: bold;
 }
 
