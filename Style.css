@@ -1,13 +1,39 @@
 /* main elements*/
 
+html, body, .container {
+		height: 100%;
+		margin: 0;
+	}
+
 
 body {
-	margin: 0 auto:;
 	background-color: #7FC6A6;
 	font-family: helvetica;
-	width: 100%;
 	color: #000000;
 }
+
+
+	@media only screen and (min-width: 321px) {
+		.container {
+		display: table;
+		width: 100%;
+		}
+
+	
+
+.row { 
+	display: table-row; 
+}
+
+.column {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.wrapper {
+		margin: 0 auto;
+		width: 300px;
+	}
 
 
 .header {
@@ -33,22 +59,8 @@ a {
 
 
 
-@media only screen and (min-width: 321px) {
-	.container {
-		display: table;
-		width: 100%;
-		padding: 40px;
-	}
 
-.row { 
-	display: table-row; 
-	}
-.column { 
-	display: table-cell;
-	}
-
-
-#top, #bottom, #left, #right {
+/* #top, #bottom, #left, #right {
 	background: #000000;
 	position: fixed;
 	}
@@ -68,7 +80,7 @@ a {
 
 .footer {
 	padding: 40px;
-	clear: both;
+
 	
 }
 
@@ -81,6 +93,11 @@ a {
 
 p {
 	font-size: 2em;
+}
+
+.question {
+	font-size: 1em;
+	font-weight: bold;
 }
 
 
