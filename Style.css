@@ -128,9 +128,9 @@ display: inline;
 
 .myButton {
 	background-color:#ffffff;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
 
 	display:inline-block;
 	cursor:pointer;
@@ -140,6 +140,7 @@ display: inline;
 	font-size:1em;
 	padding:15px 42px;
 	text-decoration:none;
+
 	
 }
 .myButton:hover {
@@ -152,6 +153,10 @@ display: inline;
 
 .header .myButton {
 	background-color:#7FC6A6;
+}
+
+.header .whole-guestion .myButton {
+	margin-left: -27px;
 }
 
 
